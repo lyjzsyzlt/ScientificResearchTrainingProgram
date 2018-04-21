@@ -1,9 +1,0 @@
-﻿  PVSA.cpp
-c:\users\lyj\desktop\pvsa\pvsa\defines.h(13): warning C4305: “初始化”: 从“double”到“float”截断
-c:\users\lyj\desktop\pvsa\pvsa\defines.h(15): warning C4305: “初始化”: 从“double”到“float”截断
-c:\users\lyj\desktop\pvsa\pvsa\pvsa.cpp(65): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-c:\users\lyj\desktop\pvsa\pvsa\pvsa.cpp(104): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\lyj\desktop\pvsa\pvsa\pvsa.cpp(133): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-c:\users\lyj\desktop\pvsa\pvsa\pvsa.cpp(134): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-c:\users\lyj\desktop\pvsa\pvsa\pvsa.cpp(143): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
-  PVSA.vcxproj -> C:\Users\lyj\Desktop\PVSA\Debug\PVSA.exe
