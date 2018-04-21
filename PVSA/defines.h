@@ -4,7 +4,7 @@
 
 const int JobNum = 40;//工件的数量
 const int C = 10;//批的最大容量
-const int kmax = 2;//阶段数
+const int kmax = 4;//阶段数
 
 const int solNum = 100;
 

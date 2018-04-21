@@ -1,0 +1,25 @@
+﻿  LS.cpp
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\defines.h(11): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\defines.h(13): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(122): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(122): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(131): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(141): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(173): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(183): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(190): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(193): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(198): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(237): warning C4305: “初始化”: 从“__int64”到“float”截断
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(238): warning C4305: “初始化”: 从“__int64”到“float”截断
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(246): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(249): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(251): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(251): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(258): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(272): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(274): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(322): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(323): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\lyj\desktop\scientificresearchtrainingprogram\pvsa\ls.cpp(80): warning C4715: “getEPC1”: 不是所有的控件路径都返回值
+  PVSA.vcxproj -> C:\Users\lyj\Desktop\ScientificResearchTrainingProgram\x64\Debug\PVSA.exe

@@ -84,7 +84,8 @@ void Right_Shift(Solution& sol,Batch B[])
 	int newEPC = 0;
 	for (int k = kmax; k >= 1; k--)
 	{
-		Batch tempBB[100];
+		//Batch tempBB[100];
+		Batch* tempBB = new Batch[100];
 		cpMatrix(tempBB, B, batchNum);
 		int D[100];
 		memset(D, -1, sizeof(D));
@@ -149,7 +150,7 @@ void Right_Shift(Solution& sol,Batch B[])
 		}
 	}
 	//输出改进后的情况
-	ofstream out("LS.txt", ios::app);
+	/*ofstream out("LS.txt", ios::app);
 	out << endl;
 	out << "----------Right_Shift之后-------------：" << endl;
 
@@ -162,7 +163,7 @@ void Right_Shift(Solution& sol,Batch B[])
 			for (; it != M[k][i].List.end(); it++)
 				out << '\t' << "批：" << (*it).BId << '\t' << "开始时间：" << (*it).BS[k] << '\t' << "完成时间：" << (*it).BC[k] << '\t' << "机器：" << (*it).MID[k] << endl;
 		}
-	}
+	}*/
 	//计算改进后的EPC
 	for (int k = 1; k < kmax + 1; k++)
 	{
@@ -193,16 +194,17 @@ void Right_Shift(Solution& sol,Batch B[])
 			}
 		}
 	}
-	out << "newEPC=" << newEPC << '\t' << "Cmax=" << sol.Cmax << endl;
+	//out << "newEPC=" << newEPC << '\t' << "Cmax=" << sol.Cmax << endl;
 	sol.EPC = newEPC;
-	out << "=================================================" << endl << endl;
+	//out << "=================================================" << endl << endl;
 }
 // 求每个解对应的函数值
 void getFitness(Solution& sol, Batch B[])
 {
 	int SOL[106];//存放每一阶段的批序列（后面的覆盖前面的）
 	cpMatrix(SOL, sol.batchSeq, batchNum);
-	Batch tempB[100];
+	//Batch tempB[100];
+	Batch *tempB = new Batch[100];
 	cpMatrix(tempB, B, batchNum);
 
 	int EPC = 0;
@@ -218,12 +220,12 @@ void getFitness(Solution& sol, Batch B[])
 		}
 	}
 	
-	ofstream out("LS.txt", ios::app);
+	/*ofstream out("LS.txt", ios::app);
 	out << "---------------------------------------" << endl;
 
 	for (int i = 1; i <= batchNum; i++)
 		out << SOL[i] << " ";
-	out << endl;
+	out << endl;*/
 	//对于每个阶段
 	for (int k = 1; k < kmax + 1; k++)
 	{
@@ -305,7 +307,7 @@ void getFitness(Solution& sol, Batch B[])
 
 
 	//输出每个阶段每台机器上的批情况
-	for (int k = 1; k < kmax + 1; k++)
+	/*for (int k = 1; k < kmax + 1; k++)
 	{
 		for (int i = 1; i < machineNum[k] + 1; i++)
 		{
@@ -316,7 +318,7 @@ void getFitness(Solution& sol, Batch B[])
 		}
 	}
 	//输出总的电费，Cmax
-	out << "EPC=" << EPC << '\t' << "Cmax=" << Cmax << endl;
+	out << "EPC=" << EPC << '\t' << "Cmax=" << Cmax << endl;*/
 	sol.Cmax = Cmax;
 	sol.EPC = EPC;
 
