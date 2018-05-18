@@ -25,7 +25,17 @@ void displayBatch(Batch B[]); // 输出批信息
 
 Solution generateNewSol(Solution sol,Solution best); //当前解sol产生新的可行解
 
-set<Solution> updateNDS(Solution sol, set<Solution> NDS);
+int updateNDS(Solution sol, set<Solution> &NDS1);
 
 void printSol(const Solution& sol);
+
+void reverse(int a[], int begin, int end);
+Solution twoPointsSwap(Solution sol, Solution best);
+int getPos(Solution sol, int batch);
+
+// 轮盘赌算法
+int RWS(double P[],int N,int flag[]);
+
+// 随机从NDS中选择一个解
+Solution selectFromNDS(set<Solution> &NDS1);
 #endif // !functions_H

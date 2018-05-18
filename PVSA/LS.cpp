@@ -98,6 +98,8 @@ void Right_Shift(Solution& sol,Batch B[])
 		for (int i = 1; i <= batchNum; i++)
 			D[c++] = tempBB[i].BId;
 
+		delete tempBB;
+
 		for (int h = 1; h <=batchNum; h++)
 		{
 			int tmin = B[D[h]].BS[k];
@@ -324,6 +326,7 @@ void getFitness(Solution& sol, Batch B[])
 
 	//Right_Shift¸Ä½ø
 	Right_Shift(sol,tempB);
+	delete tempB;
 }
 
 
